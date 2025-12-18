@@ -1,2 +1,4 @@
+# Default: normalize text files and use LF in repo
 * text=auto eol=lf
+# Windows batch files need CRLF
 *.bat text eol=crlf
