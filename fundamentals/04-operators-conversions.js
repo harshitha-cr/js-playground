@@ -39,12 +39,14 @@ console.log(+apples + +oranges); // 5
 ========================= 
 */
 let one = 1;
-nOne = -one;
+let nOne = -one;
 console.log(nOne);
 
 /* 
 =========================
-   Assignment operator
+   Assignment operator: 
+
+   - The call x =  value writes value into x and returns it.
 ========================= 
 */
 let a = 1;
@@ -69,6 +71,8 @@ console.log(n); // 16
    Increment/Decrement
 
    - Their precedence is higher than most other arithmetical operations.
+   - ++a => Increment and return the value
+   - a++ => Return the value then increment
 ========================= 
 */
 let counter = 0;
